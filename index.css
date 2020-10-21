@@ -22,6 +22,7 @@ footer {
 }
 
 table {
+            float: right;
             width: 150px;
             height: 130px;
             text-align:  center;
@@ -31,9 +32,7 @@ table {
 
 img {
             position: relative;
-            left: 32%;
-            bottom: -21%;
-
+            left: 75%;
 }
 
 .page-wrapper {
@@ -62,12 +61,11 @@ img {
 .text3 {
             font-size: medium;
             color: white;
-            float: left;
 }
 
-.link   {
-            color: red;
-            text-decoration: underline;
+a:link   {
+            color:red;
+            text-decoration:underline;
             font-size: large;
 }
 
